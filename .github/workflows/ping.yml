@@ -3,7 +3,7 @@ name: Ping Render Backend
 on:
   schedule:
     # Schedule to run every hour
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: # Enables manual trigger
 jobs:
   ping:
